@@ -4,7 +4,11 @@ function getIt(){
   });
 }
 
-function 
+function frameIt(){
+  $("img").on("load", function(event){
+    
+  });
+}
 
 $(document).ready(function(){
   getIt();
